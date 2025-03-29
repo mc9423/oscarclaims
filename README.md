@@ -2,16 +2,18 @@
 
 A modern, accessible, and user-friendly insurance claims management system built with React, TypeScript, and Tailwind CSS.
 
+<img width="1706" alt="Screenshot 2025-03-29 at 2 03 57 AM" src="https://github.com/user-attachments/assets/2c1ef561-5eb7-43b1-9542-9863585fb2b5" />
+
 ## Features
 
 - 📋 Comprehensive claims management dashboard
-- 🔍 Advanced filtering and search capabilities
+- 🔍 Filtering and search capabilities
 - 📊 Sortable and paginated claims table
 - 📝 Detailed claim submission form with validation
 - 📎 Document upload and management
 - 🔄 Real-time status updates
 - ♿ Full accessibility support
-- 📱 Responsive design for all devices
+- 📱 Responsive design
 
 ## Tech Stack
 
@@ -23,6 +25,7 @@ A modern, accessible, and user-friendly insurance claims management system built
 - **Form Handling**: React Hook Form
 - **Date Handling**: date-fns
 - **Type Safety**: TypeScript
+- **Backend**: Supabase
 
 ## Getting Started
 
@@ -99,7 +102,6 @@ This project follows WCAG 2.1 guidelines and includes:
 - ARIA labels and roles
 - Keyboard navigation
 - Screen reader support
-- High contrast mode
 - Focus management
 
 ## Testing
@@ -128,4 +130,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [TanStack](https://tanstack.com/) for their excellent React libraries
 - [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
-- [React Query](https://tanstack.com/query/latest) for data fetching and caching
+- [Supabase](https://supabase.com) for a free backend as a service
