@@ -22,9 +22,6 @@ A modern, accessible, and user-friendly insurance claims management system built
 - **Styling**: Tailwind CSS
 - **State Management**: React Query
 - **API Client**: Axios
-- **Form Handling**: React Hook Form
-- **Date Handling**: date-fns
-- **Type Safety**: TypeScript
 - **Backend**: Supabase
 
 ## Getting Started
