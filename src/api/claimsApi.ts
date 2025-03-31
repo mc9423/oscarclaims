@@ -4,6 +4,10 @@ import { Claim } from '../types/claim';
 import { API_CONFIG, API_ENDPOINTS } from '../config/api';
 import { ApiError, ApiRequestConfig, ClaimsApiResponse, ClaimApiResponse, UploadApiResponse } from '../types/api';
 
+// I also want to mention: this isn't what we'd do in a real product.
+// Calling the API directly like this is not a good idea.
+// It exposes our API keys and other sensitive information.
+// The preferred method is to have a proper backend service that proxies the API requests.
 
 const api: AxiosInstance = axios.create({
   baseURL: API_CONFIG.BASE_URL,
