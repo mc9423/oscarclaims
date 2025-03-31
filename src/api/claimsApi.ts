@@ -1,4 +1,3 @@
-// src/services/claimsApi.ts
 import axios, { AxiosInstance, AxiosError } from 'axios';
 import { Claim } from '../types/claim';
 import { API_CONFIG, API_ENDPOINTS } from '../config/api';
